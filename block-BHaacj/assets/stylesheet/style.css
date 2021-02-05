@@ -1,0 +1,172 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    padding: 0 180px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    padding: 20px 0;
+}
+
+.brand{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flex-1{
+    display: flex;
+    align-items: center; 
+    
+}
+
+.menu li{
+    margin-left: 40px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.home a{
+    color: #69C6BA;
+}
+
+main{
+    background-color: #E6E6E6;
+}
+
+.hero{
+    background: linear-gradient(to right, rgb(0, 0, 0, 0.9),rgb(0, 0, 0, 0.6)),url("../banner.jpg") repeat;
+    height: 400px;
+    text-align: center;
+    background-position: center;
+}
+
+.hero-circle{
+    background-color: #69C6BA;
+    padding: 8px;
+    color: white;
+    border-radius: 50%;
+}
+
+.hero-content{
+    padding: 60px 0;
+    color: white;
+}
+
+.hero-content h1{
+    font-size: 40px;
+    padding: 10px 0;;
+}
+
+.hero-content p{
+    font-size: 20px;
+    padding: 10px 0;;
+}
+
+.form-main{
+    background-color: white;
+    padding: 10px 5px;
+}
+ 
+.form-main .flex{
+    justify-content: space-between;
+}
+
+.form-main .form-2{
+    margin-right: 20px;
+}
+
+.form-control{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    
+}
+
+.form-controls{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    
+}
+
+
+.form-controls input{
+    margin: 10px 0;
+    width: 50%;
+    border: none;
+    
+}
+
+.form-control input{
+    margin: 10px 0;
+    border: none;
+}
